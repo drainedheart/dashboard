@@ -45,7 +45,7 @@ a:hover {
 --------------------------------------------------------------*/
 #main {
   margin-top: 60px;
-  padding: 20px 30px;
+  padding: 20px 10px;
   transition: all 0.3s;
 }
 @media (max-width: 1199px) {
@@ -1278,4 +1278,32 @@ tbody {
   display: block;
   width: 36px !important;
   height: 37px !important;
+}
+
+
+/*targeting the classes directly 
+    Using Id can also work but this fixes up whats needed.
+*/
+
+.col-4 {
+    padding: 0px 0px 10px 0px;
+}
+
+.col-6 {
+    width: 55%;
+    padding: 20px 5px 10px 5px
+}
+
+.col-2 {
+    width: 20%;
+    padding: 0px 0px 10px 4px;
+    height: fit-content;
+}
+
+.NoPadding{
+    padding: 0px 0px 10px 0px;
+}
+
+.card-body {
+    padding: 20px 5px 20px 0px;
 }
