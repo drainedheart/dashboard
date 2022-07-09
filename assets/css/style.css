@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 
 * {
-  outline: 2px solid red !important;
+  /* outline: 2px solid red !important; */
   box-sizing: border-box;
 }
 :root {
@@ -45,7 +45,7 @@ a:hover {
 --------------------------------------------------------------*/
 #main {
   margin-top: 60px;
-  padding: 20px 10px;
+  padding: 20px 30px;
   transition: all 0.3s;
 }
 @media (max-width: 1199px) {
@@ -1135,8 +1135,8 @@ a:hover {
 }
 .icon-contain .about {
   position: relative;
-  height: 27px;
-  width: 25px;
+  height: 32px;
+  width: 22px;
   margin-top: 12.36px;
   margin-bottom: 10.64px;
 }
@@ -1146,6 +1146,13 @@ a:hover {
   width: 28px;
   margin-top: 13px;
   margin-bottom: 13px;
+}
+.icon-contain .information {
+  position: relative;
+  height: 30px;
+  width: 6px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .gift-contain {
   position: relative;
@@ -1170,8 +1177,6 @@ a:hover {
 h5 {
   top: 221px;
   left: 30px;
-  width: 87px;
-  height: 14px;
   font: var(--unnamed-font-style-normal) normal
     var(--unnamed-font-weight-normal) 12px/24px Raleway;
   letter-spacing: var(--unnamed-character-spacing-0);
@@ -1280,30 +1285,29 @@ tbody {
   height: 37px !important;
 }
 
-
 /*targeting the classes directly 
     Using Id can also work but this fixes up whats needed.
 */
 
 .col-4 {
-    padding: 0px 0px 10px 0px;
+  padding: 0px 0px 10px 0px;
 }
 
 .col-6 {
-    width: 55%;
-    padding: 20px 5px 10px 5px
+  width: 55%;
+  padding: 20px 20px 10px 20px;
 }
 
 .col-2 {
-    width: 20%;
-    padding: 0px 0px 10px 4px;
-    height: fit-content;
+  width: 17%;
+  padding: 0px 0px 10px 4px;
+  height: fit-content;
 }
 
-.NoPadding{
-    padding: 0px 0px 10px 0px;
+.NoPadding {
+  padding: 0px 50px 10px 0px;
 }
 
 .card-body {
-    padding: 20px 5px 20px 0px;
+  padding: 20px 5px 20px 0px;
 }
